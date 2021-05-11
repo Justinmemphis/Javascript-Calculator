@@ -3,6 +3,8 @@ body {
   padding: 0px;
   margin: 10px;
   background: #262626;
+  transform: scale(2.0);
+  transform-origin: 0 0;
 }
 
 h1 {
