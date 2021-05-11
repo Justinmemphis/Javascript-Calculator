@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+  background: #262626;
+}
+
+h1 {
+  color: #262626;
+}
+
+#calculator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: center;
+  background: #0099cc;
+  width: 330px;
+  margin: auto;
+  padding: 0px;
+  justify-content: space-around;
+  }
+
+#output-display {
+  display: flex;
+  flex-wrap: wrap;
+  background: #0d0d0d;
+  color: #33cc33;
+  width: 330px;
+  margin: 2px;
+  padding: 5px;
+  height: 20px;
+  justify-content: flex-end;
+}
+
+#display {
+  display: flex;
+  flex-wrap: wrap;
+  background: #0d0d0d;
+  color: white;
+  width: 330px;
+  margin: 2px;
+  padding: 5px;
+  height: 20px;
+  justify-content: flex-end;
+}
+
+#button-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.calc-row {
+  display: flex;
+  width: 100%;
+}
+
+.calc-button {
+  display: flex;
+  flex-wrap: wrap;
+  background: navy;
+  color: white;
+  width: 75px;
+  height: 50px;
+  margin: 0px;
+  padding: 8px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+#clear {
+  background: #cc0000;
+  width: 150px;
+}
+
+.calc-operator {
+  background: #737373;
+}
+
+#equals {
+  background: blue;
+  height: 100px;
+}
+
+#zero {
+  width: 150px;
+  height: 50px;
+}
+
+#decimal {
+  height: 50px;
+}
